@@ -3,8 +3,8 @@
 def q1(): 
   #Write Assignment code here
 
-  int = int(input("Input an integer: "))
-  if int == 5:
+  int1 = int(input("Input an integer: "))
+  if int1 == 5:
     print("The number is Five")
   else:
     print("The number is not Five")
@@ -13,7 +13,7 @@ def q1():
 def q2(): 
   #Write Assignment code here
 
-  num = int(input("Input a number: "))
+  num = float(input("Input a number: "))
   if num > 0: 
     print("Positive")
   else:
@@ -31,7 +31,7 @@ def q3():
 def q4(): 
   #Write Assignment code here
 
-  word = input('Type "Hello" ')
+  word = input('Type "Hello": ')
   if word == 'Hello':
     print('The word is Hello')
   else: 
